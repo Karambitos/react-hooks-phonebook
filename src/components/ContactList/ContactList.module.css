@@ -1,0 +1,21 @@
+.contactList {
+    max-width: 800px;
+    padding: 0;
+    margin: auto;
+    list-style: disc;
+}
+
+.contactItem{
+   display: flex;
+    align-items: center;
+}
+
+.contactItem:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.contactItem p{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+}
